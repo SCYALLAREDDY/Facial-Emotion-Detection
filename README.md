@@ -12,7 +12,8 @@ Ensure you have Python installed on your system. You also need the following Pyt
 
 You can install these dependencies using pip:
 
-```bash
-pip install pillow scikit-learn numpy
+## Dataset
+
+The project uses a synthetic dataset for demonstration purposes. Replace the synthetic dataset with a real dataset of facial expressions for practical use. For real-world applications, you may consider datasets like FER-2013.
 
 
