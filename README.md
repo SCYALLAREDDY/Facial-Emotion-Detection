@@ -15,11 +15,11 @@ You can install these dependencies using pip:
 ```bash
 pip install pillow scikit-learn numpy
 
-Dataset
+## Dataset
 
 The project uses a synthetic dataset for demonstration purposes. Replace the synthetic dataset with a real dataset of facial expressions for practical use. For real-world applications, you may consider datasets like FER-2013.
 
-Project Structure
+## Project Structure
 
 main.py: The main script for facial expression detection. It includes functions to:
 Load and preprocess images
@@ -27,7 +27,7 @@ Train a machine learning model
 Predict facial expressions
 Handle exceptions related to file paths
 
-Code Overview
+## Code Overview
 
 load_synthetic_dataset(): Generates synthetic data for demonstration. Replace this with actual dataset loading.
 train_classifier(X_train, y_train): Trains an SVM classifier using the provided dataset.
